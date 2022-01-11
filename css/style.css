@@ -1,0 +1,566 @@
+    /* ===================================
+        All common css start
+=====================================*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ol,
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    /* ===================================
+        All common css end
+=====================================*/
+    /* ===================================
+        Header css start
+=====================================*/
+    
+    #header {
+        background-color: #0385c2;
+    }
+    
+    #header .header_left_text h4 {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 3px;
+    }
+    
+    #header .header_right_icons i {
+        margin-right: 20px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #header .header_right_icons i:hover {
+        color: black;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    /* ===================================
+        Header css end
+=====================================*/
+    /* ===================================
+        Navbar css start
+=====================================*/
+    
+    .menubar {
+        background-color: #fff !important;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .menubar .nav-item .nav-link {
+        color: #000 !important;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    .menubar .nav-item .nav-link:hover {
+        color: #0385c2 !important;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    /* ===================================
+        Navbar css end
+=====================================*/
+    /* ===================================
+        Banner css start
+=====================================*/
+    
+    #banner {
+        background: url(../images/banner.jpg) no-repeat center / cover;
+        position: relative;
+        padding: 150px 0;
+        z-index: 1;
+    }
+    
+    #banner::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
+    
+    #banner .banner_main .banner_text h2 {
+        font-size: 33px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    
+    #banner .banner_main .banner_text h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 0;
+        letter-spacing: 1.5px;
+    }
+    
+    #banner .banner_main .banner_text p {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        max-width: 450px;
+        padding: 10px 0;
+        line-height: 2;
+        text-align: right;
+    }
+    
+    #banner .banner_main .banner_btn {
+        margin-top: 20px;
+    }
+    
+    #banner .banner_main .banner_btn a {
+        color: white;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid white;
+        padding: 10px 20px;
+        margin: 10px 10px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #banner .banner_main .banner_btn .last_btn {
+        margin-right: 0;
+    }
+    
+    #banner .banner_main .banner_btn a:hover {
+        background-color: #0385c2;
+        border: 1px solid transparent;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    /* ===================================
+        Banner css end
+=====================================*/
+    /* ===================================
+        About css start
+=====================================*/
+    
+    #about .about_head {
+        position: relative;
+    }
+    
+    #about .about_head h2 {
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #about .about_head img {
+        height: 3px;
+        width: 100px;
+        margin-top: -40px;
+    }
+    
+    #about .about_text {
+        margin-top: 30px;
+    }
+    
+    #about .about_text p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 1.9;
+        color: #353535;
+    }
+    /* ===================================
+        About css end
+=====================================*/
+    /* ===================================
+        Services part css start
+=====================================*/
+    
+    #services {
+        margin: 50px 0;
+    }
+    
+    #services .services_head {
+        position: relative;
+    }
+    
+    #services .services_head h2 {
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #services .services_head img {
+        height: 3px;
+        width: 100px;
+        margin-top: -30px;
+    }
+    
+    #services .service_item {
+        background-color: #f1f1f1;
+        padding: 30px 20px;
+        position: relative;
+        margin-top: 100px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    #services .service_item:hover {
+        box-shadow: 0px 2px 7px 2px gray;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #services .service_item:hover .service_item_img {
+        background-color: #47bdf4;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #services .service_item .service_item_img {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        border: 2px solid white;
+        background-color: #f1f1f1;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 100px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #services .service_item .service_item_img .service_after {
+        position: relative;
+    }
+    
+    #services .service_item .service_item_img .service_img_border_div::after {
+        position: absolute;
+        content: '';
+        top: -4px;
+        left: -4px;
+        height: 104px;
+        width: 104px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 1px solid gray;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        z-index: 1;
+    }
+    
+    #services .service_item .service_item_img .service_img_border_div::before {
+        position: absolute;
+        content: '';
+        top: -6px;
+        left: -9px;
+        height: 111px;
+        width: 114px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 4px solid white;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    #services .service_item .service_item_texts {
+        padding-top: 30px;
+    }
+    
+    #services .service_item .service_item_texts h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #services .service_item .service_item_texts p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* ===================================
+        Services part css end
+=====================================*/
+    /* ===================================
+        portfolio part css start
+=====================================*/
+    
+    #portfolio {
+        margin: 100px 0;
+    }
+    
+    #portfolio .portfolio_head {
+        position: relative;
+    }
+    
+    #portfolio .portfolio_head h2 {
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #portfolio .portfolio_head img {
+        height: 3px;
+        width: 100px;
+        margin-top: -30px;
+    }
+    
+    #portfolio .portfolio_img {
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    #portfolio .portfolio_img .portfolio_img_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+    }
+    
+    #portfolio .portfolio_img:hover .portfolio_img_overlay {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #portfolio .portfolio_img .portfolio_img_overlay i {
+        color: white;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        background-color: #47bdf4;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        line-height: 60px;
+    }
+    /* ===================================
+        portfolio part css end
+=====================================*/
+    /* ===================================
+        Team part css start
+=====================================*/
+    
+    #team {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #team .team_head {
+        position: relative;
+    }
+    
+    #team .team_head h2 {
+        font-size: 26px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    #team .team_head img {
+        height: 3px;
+        width: 100px;
+        margin-top: -30px;
+    }
+    
+    #team .team_item {
+        margin: 20px 0;
+    }
+    
+    #team .team_item:hover .team_member_texts h3 {
+        color: #47bdf4;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item:hover .team_member_img {
+        box-shadow: 2px 2px 10px 2px gray;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item:hover .team_member_img .team_img_overlay {
+        height: 100%;
+        visibility: visible;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item .team_member_img {
+        position: relative;
+    }
+    
+    #team .team_item .team_member_img .team_img_overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 0%;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        visibility: hidden;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item .team_member_img .team_img_overlay i {
+        font-size: 30px;
+        height: 60px;
+        margin-top: 20px;
+        width: 60px;
+        background-color: transparent;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        line-height: 60px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item .team_member_img .team_img_overlay i:hover {
+        background-color: #47bdf4;
+        border: 1px solid transparent;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+    
+    #team .team_item .team_member_texts h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    
+    #team .team_item .team_member_texts h5 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    /* ===================================
+        Team part css end
+=====================================*/
